@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oversized Shirts — GLITCHWEAR</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/pages.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+</head>
+<body>
+<div class="cursor"></div>
+<div class="cursor-ring"></div>
+<div class="toast"></div>
+<div class="cart-backdrop"></div>
+
+<aside class="cart-drawer">
+  <div class="cart-header">
+    <span class="cart-title">Your Cart</span>
+    <button class="cart-close">✕</button>
+  </div>
+  <div class="cart-items">
+    <div class="cart-empty">
+      <div class="cart-empty-icon">🛒</div>
+      <p>Your cart is empty</p>
+    </div>
+  </div>
+  <div class="cart-footer" style="display:none;">
+    <div class="cart-total">
+      <span class="cart-total-label">Total</span>
+      <span class="cart-total-amount">₹0</span>
+    </div>
+    <button class="checkout-btn">Checkout →</button>
+  </div>
+</aside>
+
+<nav>
+  <a href="../index.html" class="nav-logo">GLITCHWEAR</a>
+  <ul class="nav-links">
+    <li><a href="../index.html#shop">Shop</a></li>
+    <li><a href="../index.html#new">New Drops</a></li>
+    <li><a href="shirts.html" style="color:var(--acid-yellow)">Shirts</a></li>
+    <li><a href="pants.html">Pants</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+  <div class="nav-icons">
+    <button class="nav-icon-btn">🔍</button>
+    <button class="nav-icon-btn cart-btn" style="position:relative;">
+      🛒<span class="cart-count" style="display:none;">0</span>
+    </button>
+  </div>
+  <button class="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+<div class="mobile-nav">
+  <ul>
+    <li><a href="../index.html#shop">Shop</a></li>
+    <li><a href="shirts.html">Shirts</a></li>
+    <li><a href="pants.html">Pants</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+</div>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <div class="page-hero-bg" style="background:linear-gradient(135deg,rgba(255,45,120,0.15) 0%,transparent 60%),linear-gradient(225deg,rgba(0,240,255,0.1) 0%,transparent 60%),var(--bg);"></div>
+  <div class="hero-grid"></div>
+  <div class="page-hero-content">
+    <span class="hero-tag">// 28 Styles Available</span>
+    <h1 class="page-title">OVERSIZED<br><span style="-webkit-text-stroke:2px var(--hot-pink);color:transparent;">SHIRTS</span></h1>
+    <p class="hero-sub">Boxy. Breathable. Built for the feed.</p>
+  </div>
+</div>
+
+<div class="marquee-strip">
+  <div class="marquee-inner">
+    <span>OVERSIZED FITS</span><span class="dot">✦</span>
+    <span>280 GSM COTTON</span><span class="dot">✦</span>
+    <span>DROP SHOULDER</span><span class="dot">✦</span>
+    <span>UNISEX SIZING</span><span class="dot">✦</span>
+    <span>LIMITED DROPS</span><span class="dot">✦</span>
+    <span>OVERSIZED FITS</span><span class="dot">✦</span>
+    <span>280 GSM COTTON</span><span class="dot">✦</span>
+    <span>DROP SHOULDER</span><span class="dot">✦</span>
+    <span>UNISEX SIZING</span><span class="dot">✦</span>
+    <span>LIMITED DROPS</span><span class="dot">✦</span>
+  </div>
+</div>
+
+<!-- FILTERS + PRODUCTS -->
+<section class="products" style="padding-top:60px;">
+  <div class="filter-tabs reveal" style="justify-content:flex-start;max-width:1200px;margin:0 auto 50px;padding:0 0;">
+    <button class="filter-tab active" data-filter="all">All Shirts</button>
+    <button class="filter-tab" data-filter="graphic">Graphic</button>
+    <button class="filter-tab" data-filter="plain">Plain</button>
+    <button class="filter-tab" data-filter="printed">Printed</button>
+  </div>
+  <div class="products-grid">
+
+    <div class="product-card reveal" data-category="graphic" data-color="#1a0030" data-emoji="👕">
+      <div class="product-img-wrap">
+        <div style="width:100%;height:100%;background:linear-gradient(135deg,#1a0030,#ff2d78 160%);display:flex;align-items:center;justify-content:center;font-size:6rem;">👕</div>
+        <span class="product-badge new">New</span>
+        <div class="product-actions">
+          <button class="action-btn wish-btn">♡</button>
+        </div>
+      </div>
+      <div class="product-info">
+        <p class="product-category">Graphic</p>
+        <h3 class="product-name">NEON GHOST TEE</h3>
+        <div class="product-sizes"><span class="size-chip">XS</span><span class="size-chip">S</span><span class="size-chip">M</span><span class="size-chip">L</span><span class="size-chip">XL</span></div>
+        <div class="product-bottom">
+          <span><span class="product-price">₹1,299</span><span class="product-price-old">₹1,999</span></span>
+          <button class="add-cart-btn">Add +</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card reveal" data-category="plain" data-color="#001a10" data-emoji="👕">
+      <div class="product-img-wrap">
+        <div style="width:100%;height:100%;background:linear-gradient(135deg,#001a10,#39ff14 200%);display:flex;align-items:center;justify-content:center;font-size:6rem;">👕</div>
+        <div class="product-actions">
+          <button class="action-btn wish-btn">♡</button>
+        </div>
+      </div>
+      <div class="product-info">
+        <p class="product-category">Plain</p>
+        <h3 class="product-name">MATRIX OVERSIZED</h3>
+        <div class="product-sizes"><span class="size-chip">XS</span><span class="size-chip">S</span><span class="size-chip">M</span><span class="size-chip">L</span></div>
+        <div class="product-bottom">
+          <span><span class="product-price">₹1,199</span></span>
+          <button class="add-cart-btn">Add +</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card reveal" data-category="printed" data-color="#1a1000" data-emoji="🧥">
+      <div class="product-img-wrap">
+        <div style="width:100%;height:100%;background:linear-gradient(135deg,#1a1000,#ffe600 200%);display:flex;align-items:center;justify-content:center;font-size:6rem;">🧥</div>
+        <span class="product-badge new">New</span>
+        <div class="product-actions">
+          <button class="action-btn wish-btn">♡</button>
+        </div>
+      </div>
+      <div class="product-info">
+        <p class="product-category">Printed</p>
+        <h3 class="product-name">ACID WASH DROP</h3>
+        <div class="product-sizes"><span class="size-chip">S</span><span class="size-chip">M</span><span class="size-chip">L</span><span class="size-chip">XL</span></div>
+        <div class="product-bottom">
+          <span><span class="product-price">₹1,499</span><span class="product-price-old">₹2,199</span></span>
+          <button class="add-cart-btn">Add +</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card reveal" data-category="graphic" data-color="#001530" data-emoji="👕">
+      <div class="product-img-wrap">
+        <div style="width:100%;height:100%;background:linear-gradient(135deg,#001530,#00f0ff 200%);display:flex;align-items:center;justify-content:center;font-size:6rem;">👕</div>
+        <span class="product-badge" style="background:var(--purple)">Limited</span>
+        <div class="product-actions">
+          <button class="action-btn wish-btn">♡</button>
+        </div>
+      </div>
+      <div class="product-info">
+        <p class="product-category">Graphic</p>
+        <h3 class="product-name">BLUE STATIC TEE</h3>
+        <div class="product-sizes"><span class="size-chip">S</span><span class="size-chip">M</span><span class="size-chip">L</span><span class="size-chip">XL</span><span class="size-chip">XXL</span></div>
+        <div class="product-bottom">
+          <span><span class="product-price">₹1,599</span></span>
+          <button class="add-cart-btn">Add +</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card reveal" data-category="plain" data-color="#1a0010" data-emoji="👕">
+      <div class="product-img-wrap">
+        <div style="width:100%;height:100%;background:linear-gradient(135deg,#1a0010,#c0c0c0 200%);display:flex;align-items:center;justify-content:center;font-size:6rem;">👕</div>
+        <div class="product-actions">
+          <button class="action-btn wish-btn">♡</button>
+        </div>
+      </div>
+      <div class="product-info">
+        <p class="product-category">Plain</p>
+        <h3 class="product-name">CHROME BOXY TEE</h3>
+        <div class="product-sizes"><span class="size-chip">XS</span><span class="size-chip">S</span><span class="size-chip">M</span><span class="size-chip">L</span></div>
+        <div class="product-bottom">
+          <span><span class="product-price">₹999</span></span>
+          <button class="add-cart-btn">Add +</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card reveal" data-category="printed" data-color="#100020" data-emoji="👕">
+      <div class="product-img-wrap">
+        <div style="width:100%;height:100%;background:linear-gradient(135deg,#100020,#9b00ff 180%,#ff2d78 250%);display:flex;align-items:center;justify-content:center;font-size:6rem;">👕</div>
+        <span class="product-badge new">New</span>
+        <div class="product-actions">
+          <button class="action-btn wish-btn">♡</button>
+        </div>
+      </div>
+      <div class="product-info">
+        <p class="product-category">Printed</p>
+        <h3 class="product-name">RAVE OVERSIZED</h3>
+        <div class="product-sizes"><span class="size-chip">S</span><span class="size-chip">M</span><span class="size-chip">L</span><span class="size-chip">XL</span></div>
+        <div class="product-bottom">
+          <span><span class="product-price">₹1,399</span><span class="product-price-old">₹1,899</span></span>
+          <button class="add-cart-btn">Add +</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="features">
+  <div class="features-grid">
+    <div class="feature-item reveal"><span class="feature-icon">⚡</span><h4 class="feature-title">Free Shipping</h4><p class="feature-desc">Orders above ₹999 ship free.</p></div>
+    <div class="feature-item reveal"><span class="feature-icon">🔄</span><h4 class="feature-title">Easy Returns</h4><p class="feature-desc">7-day hassle-free returns.</p></div>
+    <div class="feature-item reveal"><span class="feature-icon">🧵</span><h4 class="feature-title">Quality Fabrics</h4><p class="feature-desc">280 GSM premium cotton.</p></div>
+    <div class="feature-item reveal"><span class="feature-icon">🌀</span><h4 class="feature-title">Limited Drops</h4><p class="feature-desc">Once it's gone, it's gone.</p></div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div>
+      <span class="footer-brand-name">GLITCHWEAR</span>
+      <p class="footer-tagline">Born in the static. Dressed for a world that doesn't exist yet.</p>
+      <div class="social-links">
+        <a href="#" class="social-link">ig</a>
+        <a href="#" class="social-link">tw</a>
+        <a href="#" class="social-link">tt</a>
+        <a href="#" class="social-link">yt</a>
+      </div>
+    </div>
+    <div>
+      <h5 class="footer-col-title">Shop</h5>
+      <ul class="footer-links">
+        <li><a href="shirts.html">Oversized Shirts</a></li>
+        <li><a href="pants.html">Baggy Pants</a></li>
+        <li><a href="../index.html#new">New Drops</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5 class="footer-col-title">Help</h5>
+      <ul class="footer-links">
+        <li><a href="#">Size Guide</a></li>
+        <li><a href="#">Shipping Info</a></li>
+        <li><a href="#">Returns</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5 class="footer-col-title">Brand</h5>
+      <ul class="footer-links">
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span class="footer-copy">© 2025 GLITCHWEAR. All Rights Reserved.</span>
+    <span class="footer-copy" style="color:var(--hot-pink);">Made with static ⚡</span>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>
